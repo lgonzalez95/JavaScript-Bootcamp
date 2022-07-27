@@ -1,0 +1,14 @@
+Install babel
+npm install -g @babel/core @babel/cli
+
+Uninstall babel
+npm uninstall -g @babel/cli live-server
+
+Install babel and live server locally
+npm install @babel/cli live-server
+
+Install preset
+npm install @babel/core @babel/preset-env
+
+Compile file
+babel input.js -o output.js --presets @babel/env
